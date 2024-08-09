@@ -11,7 +11,6 @@ class Human < Player
       guess = gets.chomp
       guessed_colors.push(guess)
     end
-    print guessed_colors
-    puts
+    guessed_colors
   end
 end
